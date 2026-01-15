@@ -1,0 +1,68 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a1a1a; /* Dark ninja background */
+    color: #f0f0f0; /* Light text for contrast */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #00ffcc; /* Ninja teal color */
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+/* Announcements container */
+#announcements {
+    background-color: #111111;
+    border: 2px solid #00ffcc;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 150px;
+    line-height: 1.6;
+    font-size: 1.1em;
+    white-space: pre-wrap; /* Keeps line breaks from announcements.txt */
+}
+
+/* Buttons */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 25px;
+    background-color: #00ffcc;
+    color: #1a1a1a;
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #00cc99;
+    transform: scale(1.05);
+}
+
+/* Dev Mode textarea */
+textarea {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    background-color: #222222;
+    color: #00ffcc;
+    border: 2px solid #00ffcc;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1em;
+    resize: vertical;
+}
+
+/* Centering dev mode elements */
+#saveAnn {
+    margin-top: 10px;
+}

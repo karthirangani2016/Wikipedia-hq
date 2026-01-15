@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dev Mode</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Dev Mode</h1>
+<textarea id="newAnn" rows="10" cols="50"></textarea><br>
+<button id="saveAnn">Save Announcements</button>
+
+<script>
+document.getElementById("saveAnn").addEventListener("click", async () => {
+    alert("To update, copy text and update 'announcements.txt' and 'version.txt' in GitHub.");
+});
+</script>
+</body>
+</html>
